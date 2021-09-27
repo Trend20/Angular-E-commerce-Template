@@ -1,11 +1,18 @@
-<a [routerLink]="['/']">
-  <h1>My Store</h1>
-</a>
-
-<a class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
-
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
--->
+<header id="header">
+  <!-- app logo -->
+  <div class="logo">
+    <a [routerLink]="['/']">
+      <h1>My Store</h1>
+    </a>
+  </div>
+  <!-- action buttons -->
+  <div class="actions">
+    <form class="search">
+      <mat-icon aria-hidden="false" class="icon">search</mat-icon>
+      <mat-form-field class="input">
+        <input matInput placeholder="Search" id="search-input">
+      </mat-form-field>
+    </form>
+    <a class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
+  </div>
+</header>

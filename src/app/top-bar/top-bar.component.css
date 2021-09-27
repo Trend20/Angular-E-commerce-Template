@@ -1,7 +1,33 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.actions{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.search{
+    display: flex;
+    align-items: center;
+    color: #000;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    text-transform: capitalize;
+    padding: 0px 10px;
+}
+
+.icon{
+    color: rgb(11, 147, 165);
+}
+
+.input input::placeholder{
+    text-transform: capitalize;
+}
