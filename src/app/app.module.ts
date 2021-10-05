@@ -12,6 +12,7 @@ import { PagesComponent } from './pages/pages.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { NewProductsComponent } from './pages/new-products/new-products.component';
 import { SidebarComponent } from './pages/sidebar/sidebar.component'; 
+import {MatExpansionModule} from '@angular/material/expansion'; 
 @NgModule({
   imports: [
     BrowserModule,
@@ -23,7 +24,8 @@ import { SidebarComponent } from './pages/sidebar/sidebar.component';
     MatButtonModule,
     MatIconModule,
     MatInputModule,
-    MatTabsModule
+    MatTabsModule,
+    MatExpansionModule
   ],
   declarations: [
     AppComponent,

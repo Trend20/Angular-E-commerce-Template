@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-button{
+    border: 1px solid green;
+    border-radius: 50px;
+    width: 11%;
+    margin: 50px;
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px; 
+    align-items: center;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.categories-button:hover{
+    background: rgb(166, 233, 166);
+    opacity: 1;
+}
+
+.categories-button >button{
+    background: none;
+    color: green;
+}
+
+mat-icon{
+    color: green;
+}
+
+/* mat-expansion-panel{
+    display: flex;
+    width: 30%;
+    background: #000;
+} */
