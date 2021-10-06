@@ -9,6 +9,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion'; 
+import { NavbarComponent } from './components/navbar/navbar.component';
 @NgModule({
   imports: [
     BrowserModule,
@@ -24,6 +25,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
   ],
   declarations: [
     AppComponent,
+    NavbarComponent
   ],
   bootstrap: [
     AppComponent

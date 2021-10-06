@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import {MatTabsModule} from '@angular/material/tabs'; 
+import {MatInputModule} from '@angular/material/input'; 
 import { NavbarComponent } from './navbar.component';
 
 describe('NavbarComponent', () => {
@@ -8,7 +9,11 @@ describe('NavbarComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NavbarComponent ]
+      declarations: [ NavbarComponent ],
+      imports: [
+        MatTabsModule,
+        MatInputModule
+      ]
     })
     .compileComponents();
   });

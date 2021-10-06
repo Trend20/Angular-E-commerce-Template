@@ -1,0 +1,24 @@
+.mat-tab-group {
+    margin-bottom: 48px;
+  }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    /* background: rgb(47, 111, 230); */
+}  
+
+.logo h1{
+    color: #fff !important;
+    margin-left: 10px;
+}
+
+mat-tab-group{
+    margin-top: 30px;
+}
+
+mat-tab label{
+    color: #fff !important;
+}
